@@ -1,0 +1,45 @@
+{"intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {
+    "tag": "farewell",
+    "patterns": ["Goodbye", "See you later", "Take care", "Bye", "Until next time"],
+    "responses": ["Goodbye!", "Farewell! Have a great day!", "Take care and goodbye!"],
+    "context_set": ""
+  },
+  {
+    "tag": "product_information",
+    "patterns": ["Tell me about your products", "What do you offer?", "Can you provide details about your products?"],
+    "responses": ["We offer a wide range of high-quality products. Please let me know which specific product you're interested in, and I'll be happy to provide you with more information."],
+    "context_set": ""
+  },
+  {
+    "tag": "order_status",
+    "patterns": ["Where is my order?", "Can you check my order status?", "I want to know when my order will arrive."],
+    "responses": ["Sure! To assist you with your order status, please provide your order number or any other relevant details, and I'll check it for you."],
+    "context_set": ""
+  },
+  {
+    "tag": "technical_support",
+    "patterns": ["I'm having trouble with your product", "How do I fix a technical issue?", "Can you help me with a technical problem?"],
+    "responses": ["I'm sorry to hear that you're experiencing technical difficulties. Please provide some details about the issue, and I'll do my best to assist you in resolving it."],
+    "context_set": ""
+  },
+  {
+    "tag": "account_assistance",
+    "patterns": ["I need help with my account", "How do I update my account information?", "Can you assist with account-related inquiries?"],
+    "responses": ["Certainly! I can help you with various account-related tasks, such as updating your information, resetting your password, or addressing any account-related inquiries you may have. Please let me know how I can assist you."],
+    "context_set": ""
+  },
+  {
+    "tag": "general_inquiries",
+    "patterns": ["Do you have a FAQ section?", "Can you answer some general questions?", "I have some non-specific inquiries."],
+    "responses": ["Of course! Feel free to ask any general questions you may have, and I'll provide you with the information you need."],
+    "context_set": ""
+  }
+]
+}
